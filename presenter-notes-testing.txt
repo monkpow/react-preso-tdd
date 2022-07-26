@@ -10,4 +10,7 @@ Show debugging (in console, and in browser)
 
 Start building the same app
 
+Split screen showing test on one side and dev on the other
 
+Test two, need to add test-id
+Need to debug for interesting check.
