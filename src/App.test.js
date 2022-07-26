@@ -27,4 +27,5 @@ test("Application allows user to toggle dark-mode", () => {
 test("Application shows thoughtful logo", () => {
   render(<App />)
   const element = screen.getByTestId('application-logo');
+  expect(element.src).toMatch(/thoughtful/);
 })

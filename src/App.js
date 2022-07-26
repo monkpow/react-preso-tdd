@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
 import { useState } from 'react'
+const logo = './thoughtful_logo_colorwhite.png';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
