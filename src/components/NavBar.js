@@ -1,7 +1,7 @@
 function NavBar() {
   return (
     <>
-      "Welcome React Chicago"
+      Welcome React Chicago
     </>
   )
 }
