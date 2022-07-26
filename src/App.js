@@ -19,7 +19,7 @@ function App() {
     <div className={applicationClasses()} data-testid="main-body-styles">
       <NavBar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+         <img src={logo} className="App-logo" alt="logo" data-testid="application-logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

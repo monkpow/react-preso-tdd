@@ -14,3 +14,8 @@ Split screen showing test on one side and dev on the other
 
 Test two, need to add test-id
 Need to debug for interesting check.
+
+
+filter by test-name in watch mode
+
+

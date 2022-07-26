@@ -22,3 +22,9 @@ test("Application allows user to toggle dark-mode", () => {
   fireEvent.click(screen.getByText('Dark Mode'))
   expect(element).toHaveClass('dark-mode');
 });
+
+
+test("Application shows thoughtful logo", () => {
+  render(<App />)
+  const element = screen.getByTestId('application-logo');
+})
